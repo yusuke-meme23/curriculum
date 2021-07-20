@@ -19,7 +19,7 @@ public class Check {
     	String firstName = "YUSUKE";
     	String lastName = "FUKUDA";
     	Check a = new Check(firstName, lastName);
-    	System.out.println(a.printName(firstName, lastName));
+    	System.out.println("printNameメソッド⇨" + a.printName(firstName, lastName));
         System.out.println();   
         
         
