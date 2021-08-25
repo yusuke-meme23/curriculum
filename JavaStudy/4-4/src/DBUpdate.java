@@ -42,7 +42,7 @@ public class DBUpdate {
             Class.forName(POSTGRES_DRIVER);
             // 問④ 問①〜③の定数を使ってデータベースと接続しなさい。
             connection = DriverManager.getConnection(
-            "jdbc:postgresql://localhost:5432/lesson_db", "postgres", "postgres");
+            JDBC_CONNECTION,USER,PASS);
             statement = connection.createStatement();
 
             // 問⑤ SHOHIN_IDが020のSHOHIN_NAMEを「商品20」に変更するためのSQL文を記述しましょう。

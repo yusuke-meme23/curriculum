@@ -41,7 +41,7 @@ public class DBPrepared {
             Class.forName(POSTGRES_DRIVER);
             // 問④ 問①〜③の定数を使ってデータベースと接続しなさい。
             connection = DriverManager.getConnection(
-            "jdbc:postgresql://localhost:5432/lesson_db", "postgres", "postgres");
+            JDBC_CONNECTION,USER,PASS);
             statement = connection.createStatement();
 
             String SQL = "SELECT * FROM TB_SHOHIN WHERE SHOHIN_ID = ? OR SHOHIN_ID = ? ";
