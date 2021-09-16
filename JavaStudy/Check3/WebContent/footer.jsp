@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>	
+<body>
 	<div class="footer">
 	<label class="hoge">hoge.Inc</label>
 	</div>
