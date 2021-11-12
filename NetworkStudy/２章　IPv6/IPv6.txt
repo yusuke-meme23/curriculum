@@ -9,7 +9,7 @@
 
 　　　（２）MACアドレス：9876.5432.10FE
 
-　　　　　　インターフェイスID:60 76 54 32 FF FE 10 FE
+　　　　　　インターフェイスID:60 76 54 FF FE 32 10 FE
 
 　　　（３）MACアドレス：FFFF.FFFF.FFFF
 
